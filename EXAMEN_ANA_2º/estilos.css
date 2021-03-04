@@ -182,12 +182,15 @@ body{
 	right: 0;
 	transition: 1s;
 }
+.modelos img{
+	display: none;
+}
 .iconos{
 	top: 15px;
 	position: fixed;
 	right: 60px;
 }
-.carretera:hover > .personalizar,.carretera:hover > .modelos,
+/*.carretera:hover > .personalizar,.carretera:hover > .modelos,
 .modelos:hover, .personalizar:hover{
 	display: none;
 }
@@ -210,16 +213,10 @@ body{
 	top: 50px;
 	width: 45%;
 }
-.modelos img{
-	display: none;
-}
-.personalizar img{
-display: none;
-}
 .modelos .orca:hover img,.modelos .orcaaero:hover img,.modelos .avant:hover img,.modelos .terra:hover img{
 	display: none;
 }
 .personalizar .orca2:hover img,.personalizar .orcaaero2:hover img,.personalizar .terra2:hover img{
 	display: none;
-}
+}*/
 }
