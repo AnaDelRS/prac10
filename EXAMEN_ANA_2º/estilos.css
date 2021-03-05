@@ -70,6 +70,11 @@ body{
 	text-decoration: none;
 	color: #666;
 }
+#bicicletas_link{
+	cursor: pointer;
+	text-decoration: none;
+	color: #666;
+}
 .titulo{
 	font-size: 20px;
 }
@@ -142,81 +147,88 @@ body{
 	}
 }
 @media screen and (max-width: 992px){
-.checked{
-	width: 20px;
-	height: 20px;
-	position: absolute;
-	top: 15px;
-	right: 15px;
-	z-index: 2;
-	opacity: 0;
+	.checked{
+		width: 20px;
+		height: 20px;
+		position: absolute;
+		top: 15px;
+		right: 15px;
+		z-index: 2;
+		opacity: 0;
+		}
+	.carretera:hover > .personalizar,.carretera:hover > .modelos,
+	.modelos:hover, .personalizar:hover{
+		display: contents;
+		}
+	#hamburguesa{
+		background-color: white;
+		width: 15px;
+		height: 15px;
+		padding-top: 15px;
+		padding-right: 15px;
+		float: right;
 	}
-#hamburguesa{
-	background-color: white;
-	width: 15px;
-	height: 15px;
-	padding-top: 15px;
-	padding-right: 15px;
-	float: right;
-}
-#hamburguesa li{
-	background-color: black;
-	width: 15px;
-	height: 1px;
-	margin: 5px auto;
-	border-radius: 15px;
-}
-#menu{
-	position: absolute;
-	top: 50px;
-	right: -100%;
-	width: 100%;
-	transition: 1s;
-	background-color: white;
-	text-align: left;
-}
-#menu > li{
-	display: block;
-}
-.checked:checked ~ #menu{
-	right: 0;
-	transition: 1s;
-}
-.modelos img{
-	display: none;
-}
-.iconos{
-	top: 15px;
-	position: fixed;
-	right: 60px;
-}
-/*.carretera:hover > .personalizar,.carretera:hover > .modelos,
-.modelos:hover, .personalizar:hover{
-	display: none;
-}
-#menu li:hover > .sub{
-	display: inline-block;
-}
-.sub li:hover > .modelos{
-	display: inline-block;
-}
-.modelos{
-	display: inline-block;
-}
-.personalizar{
-	display: inline-block;
-}
-.personalizar img{
-	display: none;
-	position: fixed;
-	right: 0;
-	top: 50px;
-	width: 45%;
-}
-.modelos .orca:hover img,.modelos .orcaaero:hover img,.modelos .avant:hover img,.modelos .terra:hover img{
-	display: none;
-}
-.personalizar .orca2:hover img,.personalizar .orcaaero2:hover img,.personalizar .terra2:hover img{
-	display: none;
-}*/
+	#hamburguesa li{
+		background-color: black;
+		width: 15px;
+		height: 1px;
+		margin: 5px auto;
+		border-radius: 15px;
+	}
+	#menu{
+		position: absolute;
+		top: 50px;
+		right: -100%;
+		width: 100%;
+		transition: 1s;
+		background-color: white;
+		text-align: left;
+	}
+	#menu li{
+
+		}
+	#menu > li{
+		display: block;
+	}
+	.checked:checked ~ #menu{
+		right: 0;
+		transition: 1s;
+	}
+	.modelos img{
+		display: none;
+	}
+	.iconos{
+		top: 15px;
+		position: fixed;
+		right: 60px;
+	}
+	/*.carretera:hover > .personalizar,.carretera:hover > .modelos,
+	.modelos:hover, .personalizar:hover{
+		display: none;
+	}
+	#menu li:hover > .sub{
+		display: inline-block;
+	}
+	.sub li:hover > .modelos{
+		display: inline-block;
+	}
+	.modelos{
+		display: inline-block;
+	}
+	.personalizar{
+		display: inline-block;
+	}
+	.personalizar img{
+		display: none;
+		position: fixed;
+		right: 0;
+		top: 50px;
+		width: 45%;
+	}
+	.modelos .orca:hover img,.modelos .orcaaero:hover img,.modelos .avant:hover img,.modelos .terra:hover img{
+		display: none;
+	}
+	.personalizar .orca2:hover img,.personalizar .orcaaero2:hover img,.personalizar .terra2:hover img{
+		display: none;
+	}*/
 }
